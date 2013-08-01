@@ -11,4 +11,7 @@ Select all of the code from [the bookmarklet file](https://github.com/keccers/he
 ###How To Use
 Click the bookmarklet on any page that needs a little HEY GIRL!
 
+###Coming Soon
+The HEY GIRL Chrome extension! 
+
 Made with ❤ by KCHAMP!  
