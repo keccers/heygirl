@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <!--Facebook Open Graph-->
+        <meta property="og:image" content="http://katherinechampagne.com/heygirlhey/gosling-square-1.jpg"/>
+        <meta property="og:title" content="Hey Girl"/>
+        <meta property="og:url" content="http://heygirl.io"/>
+        <meta property="og:site_name" content="Hey Girl: A Ryan Gosling Chrome Extension & Bookmarklet"/>
+
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>HEY GIRL HEY | A RYAN GOSLING BOOKMARKLET/CHROME EXTENSION</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/webfonts.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="content">
+        
+        <h1>HEY GIRL</h1>
+        <h2>Sick of your Facebook Friends? News getting you down?<br/>Instantly change all the images on a webpage to Ryan Gosling.</h2>
+        <p> Drag the button below to your bookmarks bar or download the <a target="_blank" href="https://chrome.google.com/webstore/detail/hey-girl-hey/jcpmmhaffdebnmkjelaohgjmndeongip" alt="Hey Girl Hey Chrome Extension">Chrome Extension</a>.</p>
+        <button>
+        <a href='javascript: function Gosling(ratio,imageurl){this.ratio=ratio;this.imageurl=imageurl}var getGosling={init:function(myGosling){this.myGosling=myGosling},horizontal:function(){return this.myGosling.filter(function(myGosling){return myGosling.ratio==="horizontal"})},vertical:function(){return this.myGosling.filter(function(myGosling){return myGosling.ratio==="vertical"})},square:function(){return this.myGosling.filter(function(myGosling){return myGosling.ratio==="square"})}};function Randomize(images){return Math.floor(Math.random()*images.length)}var myGosling=[new Gosling("horizontal","http://katherinechampagne.com/heygirlhey/gosling-horiz-1.png"),new Gosling("horizontal","http://katherinechampagne.com/heygirlhey/gosling-horiz-2.gif"),new Gosling("horizontal","http://katherinechampagne.com/heygirlhey/gosling-horiz-3.jpg"),new Gosling("vertical","http://katherinechampagne.com/heygirlhey/gosling-vert-1.jpg"),new Gosling("vertical","http://katherinechampagne.com/heygirlhey/gosling-vert-3.jpg"),new Gosling("vertical","http://katherinechampagne.com/heygirlhey/gosling-vert-4.jpg"),new Gosling("vertical","http://katherinechampagne.com/heygirlhey/gosling-vert-5.gif"),new Gosling("vertical","http://katherinechampagne.com/heygirlhey/gosling-vert-6.jpg"),new Gosling("vertical","http://katherinechampagne.com/heygirlhey/gosling-vert-7.jpg"),new Gosling("vertical","http://katherinechampagne.com/heygirlhey/gosling-vert-8.jpg"),new Gosling("vertical","http://katherinechampagne.com/heygirlhey/gosling-vert-9.jpg"),new Gosling("square","http://katherinechampagne.com/heygirlhey/gosling-square-1.jpg"),new Gosling("square","http://katherinechampagne.com/heygirlhey/gosling-square-2.jpg"),new Gosling("square","http://katherinechampagne.com/heygirlhey/gosling-square-3.jpg")];function imageRatio(image){var proportion=image.height/image.width;if(proportion>1)return"vertical";else if(proportion===1)return"square";else if(proportion<1)return"horizontal"}(function(document){getGosling.init(myGosling);var images=document.getElementsByTagName("img"),length=images.length;for(var i=0;i<length;i++){var ratio=imageRatio(images[i]);if(ratio==="horizontal"){var number=Randomize(getGosling.horizontal());var img=getGosling.horizontal()[number];images[i].src=img.imageurl}else if(ratio==="square"){var number=Randomize(getGosling.square());var img=getGosling.square()[number];images[i].src=img.imageurl}else if(ratio==="vertical"){var number=Randomize(getGosling.vertical());var img=getGosling.vertical()[number];images[i].src=img.imageurl}}})(document);'>
+        HEY GIRL
+        </a>
+        </button>
+    </div>
+
+        <footer>
+            Created by <a target="_blank" href="http://twitter.com/keccers" alt="Katherine Champagne"> Katherine Champagne</a> under the instruction of the inimitable <a href="http://twitter.com/kmsolorio" target="_blank" alt="Kevin Solorio">Kevin Solorio</a>. Design advice from that good dude <a href="http://twitter.com/mbacksmeier" alt="Mark B">Mark Backsmeier</a>.
+        </footer>
+        
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
