@@ -1,6 +1,6 @@
 chrome.browserAction.onClicked.addListener(function(tab) {
-  console.log("HEY GIRL...")
+  console.log("HEY RILCH")
   chrome.tabs.executeScript(null, {
-    file: "heygirl.js"
+    file: "heyrilch.js"
   });
 });
