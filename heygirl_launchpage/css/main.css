@@ -147,7 +147,7 @@ a:hover {
     display: block;
 }
 
-button { 
+#button { 
     background-color: rgba(174,1,126, .8);
     border: none;
     font-family: 'Gotham Medium', sans-serif;
@@ -156,13 +156,16 @@ button {
     text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
     -webkit-border-radius: 10px;
     border-radius: 10px;
+    margin: auto;
+    width: 200px;
 }
 
-button a {
+#button a {
     color: #69043F;
 }
 
-button a:hover {
+#button a:hover {
+    color: #4A032C;
     text-decoration: none;
 }
 
