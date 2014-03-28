@@ -70,7 +70,8 @@ function imageRatio(image) {
     var ratio = imageRatio(images[i]);
     var number = Randomize(getGosling[ratio]());
     var img = getGosling[ratio]()[number];
-    images[i].src = img.imageurl
+    images[i].width = images[i].clientWidth;
+    images[i].src = img.imageurl;
   }
 
 })(document);
